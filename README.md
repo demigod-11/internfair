@@ -1,4 +1,4 @@
-# INTERNFAIR
+# Internfair
 
 Helps match Interns to openings and Employers to Interns
 
