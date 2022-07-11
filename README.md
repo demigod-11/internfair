@@ -1,9 +1,10 @@
 # INTERNFAIR
 
 Helps match Interns to openings and Employers to Interns
+
 This Project is built with
 - Python, Flask, SQLAlchemy, Postgresql, JWT
-Project uses MVC
+- Project uses MVC
 
 ## Dependecies
 
@@ -18,7 +19,7 @@ UserController Endpoints
 - @method POST
 - @access PUBLIC
 - @headers {...}
--@user {
+- @user {
         email: string,
         password: string,
         confirm_password: string
