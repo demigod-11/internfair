@@ -1,11 +1,10 @@
-from models.User import db
+# from models.User import db
 from controllers.UserController import register
 from controllers.midware import *
 from flask import Flask, jsonify, request, Response
 from flask_restful import Api, Resource, reqparse, abort, fields, marshal_with
 from flask_migrate import Migrate
-
-
+from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
